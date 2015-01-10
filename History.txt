@@ -1,3 +1,7 @@
 == 1.0.0
 
 * Birthday!
+
+== 1.0.1
+
+* Configure fake git username and email.
