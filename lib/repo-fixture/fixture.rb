@@ -11,6 +11,8 @@ module RepoFixture
 
     def initialize(repo)
       @repo = repo
+      repo.git('config --global user.email "fake@example.com"')
+      repo.git('config --global user.name "Fake Person"')
     end
 
     # Copies files into the repo.
