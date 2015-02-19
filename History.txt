@@ -5,3 +5,7 @@
 == 1.0.1
 
 * Configure fake git username and email.
+
+== 1.0.2
+
+* Only configure fake git username and email if not already configured.
