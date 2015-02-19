@@ -16,7 +16,7 @@ module RepoFixture
         repo.git('config --global user.email "fake@example.com"')
       end
 
-      if repo.git('confg --global user.name').strip.empty?
+      if repo.git('config --global user.name').strip.empty?
         repo.git('config --global user.name "Fake Person"')
       end
     end
