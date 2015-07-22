@@ -9,3 +9,7 @@
 == 1.0.2
 
 * Only configure fake git username and email if not already configured.
+
+== 1.1.0
+
+* Loosen dependencies (lock to minor version).
